@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gioithieu.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+      <div class="logo">
+        <img src="images/logo_alt.png" alt="Company Logo">
+      </div>
+      <div class="title">
+        <h1>DỊCH VỤ KẾ TOÁN THUẾ ALT</h1>
+      </div>
+      <div class="button">
+        <button class="custom-button">
+            <span class="material-symbols-outlined">
+                call
+                </span>
+                HOTLINE: 0906 996 253
+          </button>
+      </div>
+    </header>
+    <nav class="menu-bar">
+        <ul>
+          <li><a href="#">TRANG CHỦ</a></li>
+          <li><a href="#">GIỚI THIỆU</a></li>
+        
+          <li class="submenu">
+            <a href="#">DỊCH VỤ KẾ TOÁN - BHXH</a>
+            <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
+              <li><a href="#">Báo cáo thuế trọn gói</a></li>
+              <li><a href="#">Báo cáo tài chính cuối năm</a></li>
+              <li><a href="#">Báo cáo nội bộ</a></li>
+              <li><a href="#">Rà soát sổ sách</a></li>
+              <li><a href="#">Thủ tục BHXH lần đầu</a></li>
+              <li><a href="#">Thủ tục BHXH duy trì</a></li>
+              <li><a href="#">Thuê Kế toán thuế - nội bộ partime</a></li>
+            </ul>
+          </li>
+          <!-- Add other menu items -->
+          <li class="submenu">
+            <a href="#">DỊCH VỤ HĐĐT - CKS</a>
+            <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
+                <li><a href="#">Hoá đơn điện tử</a></li>
+                <li><a href="#">Chữ ký số</a></li>
+              
+              </ul>
+        
+        </li>
+        <li class="submenu">
+            <a href="#">DỊCH VỤ THÀNH LẬP</a>
+            <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
+                <li><a href="#">Thành lập công ty</a></li>
+                <li><a href="#">Thay đổi đăng ký kinh doanh</a></li>
+                <li><a href="#">Tạm dừng kinh doanh</a></li>
+                <li><a href="#">Giải thể công ty</a></li>
+                <li><a href="#">Thành lập hộ kinh doanh</a></li>
+           
+                
+              
+              </ul>
+        
+        </li>
+          <li><a href="#">DỊCH VỤ KHÁC</a></li>
+          <li><a href="#">TIN TỨC</a></li>
+          <li><a href="#">LIÊN HỆ</a></li>
+        </ul>
+      </nav>
+
+    <!-- JavaScript code -->
+    <script>
+        function hoverMainItem() {
+            const mainItem = document.querySelector('.submenu > a');
+            mainItem.classList.add('hover');
+        }
+        
+        function removeHover() {
+            const mainItem = document.querySelector('.submenu > a');
+            mainItem.classList.remove('hover');
+        }
+    </script>
 </body>
 </html>
