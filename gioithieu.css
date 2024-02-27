@@ -29,7 +29,7 @@ header {
 .title h1 {
     font-size: 2.3em;
     color: #1e303d;
-    text-align: center; /* Centers title horizontally */
+    text-align: center; 
 }
 
 .button button {
@@ -60,7 +60,7 @@ header {
 
 .menu-bar li {
     margin-right: 5px;
-    position: relative; /* Position the submenu relative to the parent */
+    position: relative;
 }
 
 .menu-bar a {
@@ -69,44 +69,44 @@ header {
     font-size: 0.8em;
     text-decoration: none;
     font-weight: 600;
-    padding: 17px; /* Adjust padding to fill the entire height */
+    padding: 17px; 
 }
 
 .menu-bar a:hover {
-    background-color: white; /* Change background color to white on hover */
-    color: black; /* Change text color to black on hover */
+    background-color: white; 
+    color: black; /
 }
 
 /* Submenu styles */
 .submenu .dropdown {
-    display: none; /* Initially hidden */
+    display: none;
     position: absolute;
-    top: calc(100% - 0.2px); /* Adjusted top position to overlap with the main item */
+    top: calc(100% - 0.2px); 
     left: 0;
     background-color: #223544;
-    overflow: hidden; /* Hide overflow content */
-    animation: fadeIn 0.3s ease forwards; /* Animation for submenu appearance */
+    overflow: hidden; 
+    animation: fadeIn 0.3s ease forwards; 
 }
 
 .menu-bar ul li:hover a,
 .menu-bar ul li:hover > a {
-    background-color: white; /* Change background color to white on hover */
-    color: black; /* Change text color to black on hover */
+    background-color: white;
+    color: black; 
 }
 
 .menu-bar ul li .dropdown a:hover {
-    background-color: transparent; /* Keep default background color on hover for submenu items */
-    color: white; /* Keep default text color on hover for submenu items */
+    background-color: transparent;
+    color: white; 
 }
 
 .submenu:hover .dropdown {
-    display: block; /* Show the submenu on hover */
-    animation: fadeOut 0.3s ease forwards; /* Animation for submenu disappearance */
+    display: block;
+    animation: fadeOut 0.3s ease forwards;
 }
 
 
 .submenu .dropdown li {
-    margin-right: 0; /* Remove margin between submenu items */
+    margin-right: 0;
 }
 
 .submenu .dropdown a {
