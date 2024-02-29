@@ -1,88 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gioithieu.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gioithieu.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-    <title>Document</title>
+  <title>Document</title>
 </head>
-<body>
-    <header>
-      <div class="logo">
-        <img src="images/logo_alt.png" alt="Company Logo">
-      </div>
-      <div class="title">
-        <h1>DỊCH VỤ KẾ TOÁN THUẾ ALT</h1>
-      </div>
-      <div class="button">
-        <button class="custom-button">
-            <span class="material-symbols-outlined">
-                call
-                </span>
-                HOTLINE: 0906 996 253
-          </button>
-      </div>
-    </header>
-    <nav class="menu-bar">
-        <ul>
-          <li><a href="#">TRANG CHỦ</a></li>
-          <li><a href="#">GIỚI THIỆU</a></li>
-        
-          <li class="submenu">
-            <a href="#">DỊCH VỤ KẾ TOÁN - BHXH</a>
-            <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
-              <li><a href="#">Báo cáo thuế trọn gói</a></li>
-              <li><a href="#">Báo cáo tài chính cuối năm</a></li>
-              <li><a href="#">Báo cáo nội bộ</a></li>
-              <li><a href="#">Rà soát sổ sách</a></li>
-              <li><a href="#">Thủ tục BHXH lần đầu</a></li>
-              <li><a href="#">Thủ tục BHXH duy trì</a></li>
-              <li><a href="#">Thuê Kế toán thuế - nội bộ partime</a></li>
-            </ul>
-          </li>
-   
-          <li class="submenu">
-            <a href="#">DỊCH VỤ HĐĐT - CKS</a>
-            <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
-                <li><a href="#">Hoá đơn điện tử</a></li>
-                <li><a href="#">Chữ ký số</a></li>
-              
-              </ul>
-        
-        </li>
-        <li class="submenu">
-            <a href="#">DỊCH VỤ THÀNH LẬP</a>
-            <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
-                <li><a href="#">Thành lập công ty</a></li>
-                <li><a href="#">Thay đổi đăng ký kinh doanh</a></li>
-                <li><a href="#">Tạm dừng kinh doanh</a></li>
-                <li><a href="#">Giải thể công ty</a></li>
-                <li><a href="#">Thành lập hộ kinh doanh</a></li>
-           
-                
-              
-              </ul>
-        
-        </li>
-          <li><a href="#">DỊCH VỤ KHÁC</a></li>
-          <li><a href="#">TIN TỨC</a></li>
-          <li><a href="#">LIÊN HỆ</a></li>
-        </ul>
-      </nav>
 
-    <!-- JavaScript code -->
-    <script>
-        function hoverMainItem() {
-            const mainItem = document.querySelector('.submenu > a');
-            mainItem.classList.add('hover');
-        }
-        
-        function removeHover() {
-            const mainItem = document.querySelector('.submenu > a');
-            mainItem.classList.remove('hover');
-        }
-    </script>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo_alt.png" alt="Company Logo">
+    </div>
+    <div class="title">
+      <h1>DỊCH VỤ KẾ TOÁN THUẾ ALT</h1>
+    </div>
+    <div class="button">
+      <button class="custom-button">
+        <span class="material-symbols-outlined">
+          call
+        </span>
+        HOTLINE: 0906 996 253
+      </button>
+    </div>
+  </header>
+  <nav class="menu-bar">
+    <ul>
+      <li><a href="#">TRANG CHỦ</a></li>
+      <li><a href="#">GIỚI THIỆU</a></li>
+
+      <li class="submenu">
+        <a href="#">DỊCH VỤ KẾ TOÁN - BHXH</a>
+        <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
+          <li><a href="#">Báo cáo thuế trọn gói</a></li>
+          <li><a href="#">Báo cáo tài chính cuối năm</a></li>
+          <li><a href="#">Báo cáo nội bộ</a></li>
+          <li><a href="#">Rà soát sổ sách</a></li>
+          <li><a href="#">Thủ tục BHXH lần đầu</a></li>
+          <li><a href="#">Thủ tục BHXH duy trì</a></li>
+          <li><a href="#">Thuê Kế toán thuế - nội bộ partime</a></li>
+        </ul>
+      </li>
+
+      <li class="submenu">
+        <a href="#">DỊCH VỤ HĐĐT - CKS</a>
+        <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
+          <li><a href="#">Hoá đơn điện tử</a></li>
+          <li><a href="#">Chữ ký số</a></li>
+
+        </ul>
+
+      </li>
+      <li class="submenu">
+        <a href="#">DỊCH VỤ THÀNH LẬP</a>
+        <ul class="dropdown" onmouseover="hoverMainItem()" onmouseout="removeHover()">
+          <li><a href="#">Thành lập công ty</a></li>
+          <li><a href="#">Thay đổi đăng ký kinh doanh</a></li>
+          <li><a href="#">Tạm dừng kinh doanh</a></li>
+          <li><a href="#">Giải thể công ty</a></li>
+          <li><a href="#">Thành lập hộ kinh doanh</a></li>
+        </ul>
+
+      </li>
+      <li><a href="#">DỊCH VỤ KHÁC</a></li>
+      <li><a href="#">TIN TỨC</a></li>
+      <li><a href="#">LIÊN HỆ</a></li>
+    </ul>
+  </nav>
+
+  <div class="slideshow-container">
+    <div class="slide">
+      <img src="images/slideshow1.png" alt="Slide 1" width="1263.5px">
+    </div>
+    <div class="slide">
+      <img src="images/slideshow2.png" alt="Slide 2" width="1263.5px">
+    </div>
+    <div class="slide">
+      <img src="images/slideshow3.png" alt="Slide 3" width="1263.5px">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <div class="content-container">
+    <div class="text">
+      <h4>DỊCH VỤ KẾ TOÁN - THUẾ - NỘI BỘ ALT "Nhanh chóng - Uy Tín - Hiệu Quả"</h4>
+      <span>
+        "Kế Toán ALT mang đến giải pháp tiết kiệm chi phí trong việc vận hành bộ phận kế toán của doanh nghiệp mới
+        thành lập; vừa; nhỏ. Chúng tôi thể hiện giá trị thông qua 3 yếu tố:"<br>
+        "1. Tiếp nhận và xử lý thông tin nhanh chóng"<br>
+        "2. Kiểm soát và tư vấn giảm thiểu rủi ro về dịch vụ kế toán"<br>
+        "3. Mang đến hiệu quả dù chi phí sử dụng kế toán ALT không đáng kể"<br>
+        "Là đơn vị tư vấn và đồng hành cùng Doanh Nghiệp, chúng tôi tạo nên nền tảng hiểu biết về kế toán cho Doanh
+        nghiệp trẻ cũng là bước đầu hội nhập nền kinh tế Việt Nam. Kế Toán ALT đã và đang góp phần giúp doanh nghiệp gia
+        tăng sức cạnh tranh, an tâm phát triển cho hoạt động kinh doanh."
+      </span>
+      <div class="contact-box">
+        <span>Liên hệ: 0906996253</span>
+      </div>
+    </div>
+    <div class="image">
+      <img src="images/slide.jpg" alt="Image" width="632px">
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>DỊCH VỤ CHÍNH</h1>
+    <div class="column">
+      <img src="images/kttn.jpg" alt="Image 1">
+      <div class="text">
+        <h2>Kế toán – Thuế</h2>
+        <p>Làm sao để giải quyết bài toán sổ sách, doanh thu, chi phí, sai quy định bị phạt … trong kế toán. Hiểu được
+          những khó khăn mà các doanh nghiệp đang gặp phải, Kế toán ALT tận tâm tư vấn, giải đáp các thắc mắc của Doanh
+          Nghiệp và xử lý sổ sách theo chế độ kế toán hiện hành. Các dịch vụ chúng tôi cung cấp báo cáo thuế; Báo cáo
+          tài chính cuối năm; Quyết toán thuế; Báo cáo nội bộ; Rà soát sổ sách; Thuê kế toán nội bộ – thuế Partime</p>
+      </div>
+    </div>
+    <div class="column">
+      <img src="images/dvbh.png" alt="Image 2">
+      <div class="text">
+        <h2>Dịch vụ bảo hiểm</h2>
+        <p>Doanh nghiệp thiết lập hợp đồng với người lao động, liệu rằng bạn đã hiểu và tránh được những rủi ro bị truy
+          thu bảo hiểm xã hội, bị loại chi phí khi quyết toán. Kế toán ALT sẽ tư vấn cho bạn cái nhìn đúng đắn về luật
+          lao động hiện hành và xử lý các dịch vụ liên quan đến Người lao động. Các dịch vụ chúng tôi cung cấp: Gói tham
+          gia BHXH lần đầu; Gói tham gia BHXH định kỳ; Hợp đồng lao động; Bảng lương</p>
+      </div>
+    </div>
+    <div class="column">
+      <img src="images/tldn.jpg" alt="Image 3">
+      <div class="text">
+        <h2>Thành lập doanh nghiệp</h2>
+        <p>Thành lập công ty là pháp lý vững chắc để bạn kiếm tiền, mỗi một phút bạn chần chừ là bạn đang mất đi cơ hội
+          kiếm được tiền. Đừng đắn đo mà dừng lại chỉ vì các lý do không hiểu rõ hay ngại chi phí, Kế Toán ALT sẽ tư vấn
+          những điều cần và đủ với ngân sách phù hợp để bạn tự tin thành lập. Chúng tôi cung cấp các dịch vụ sau Dịch vụ
+          thành lập công ty, chi nhánh, VPĐD; Thay đổi thông tin trên Giấy phép kinh doanh; Đăng ký hộ kinh doanh; Giải
+          thể – tạm ngưng – chuyển đổi loại hình doanh nghiệp</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container3">
+    <img src="images/2.png" alt="Image">
+    <p>Bạn muốn thành lập doanh nghiệp hay doanh nghiệp của bạn thật sự đang có vấn đề?</p>
+    <div class="box">Tư vấn miễn phí: 0906 996 253</div>
+  </div>
+
+  <div class="container2">
+    <h1>TIN TỨC MỚI NHẤT</h1>
+    <div class="column">
+      <img src="images/dntd.jpg" alt="Image 1">
+      <div class="text">
+        <h2>ĐẨY NHANH TỐC ĐỘ THANH TOÁN CÁC GIAO DỊCH NỘP THUẾ ĐIỆN TỬ</h2>
+        <p>Gửi kiến nghị tới Kỳ họp thứ 8 Quốc hội khóa XIV, cử tri tỉnh Bình Dương cho rằng, cách tính thuế phi nông
+          nghiệp hiện nay còn nhiều bất cập, biên lai thu tiền không thể hiện được thuế đã nộp là của thửa đất nào. Cử
+          tri đề nghị cần xác định số […]</p>
+      </div>
+    </div>
+    <div class="column">
+      <img src="images/ccvcb.jpg" alt="Image 2">
+      <div class="text">
+        <h2>CÁC CÔNG VIỆC CƠ BẢN CỦA KẾ TOÁN THUẾ</h2>
+        <p>Kế toán thuế là một bộ phận không thể thiếu trong mọi loại hình của doanh nghiệp, tuy nhiên công việc của kế
+          toán thuế phải làm trong doanh nghiệp không quá phức tạp vì gần như mọi việc đều phải làm theo quy định của
+          Luật thuế. Vì vậy các bạn muốn làm tốt […]</p>
+      </div>
+    </div>
+    <div class="column">
+      <img src="images/vtckt.jpg" alt="Image 3">
+      <div class="text">
+        <h2>VAI TRÒ CỦA KẾ TOÁN ĐỐI VỚI DOANH NGHIỆP</h2>
+        <p>Một doanh nghiệp có hoạt động tốt hay không được quyết định bởi nhiều nhân tố. Tuy nhiên sự phối hợp nhịp
+          nhàng của các phòng ban trong công ty cũng là một yếu tố tiên quyết. Vai trò của phòng kế toán chắc hẳn là
+          không ai có thể phủ nhận, bởi đây là […]</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- JavaScript code -->
+  <script>
+    function hoverMainItem() {
+      const mainItem = document.querySelector('.submenu > a');
+      mainItem.classList.add('hover');
+    }
+
+    function removeHover() {
+      const mainItem = document.querySelector('.submenu > a');
+      mainItem.classList.remove('hover');
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+    setInterval(function () {
+      plusSlides(1);
+    }, 5000);
+
+  </script>
 </body>
+
 </html>
