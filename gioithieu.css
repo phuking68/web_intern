@@ -27,9 +27,10 @@ header {
 }
 
 .title h1 {
-    font-size: 2.3em;
+    font-size: 38px;
     color: #1e303d;
     text-align: center;
+    font-weight: 700;
 }
 
 .button button {
@@ -67,7 +68,7 @@ header {
 .menu-bar a {
     display: block;
     color: white;
-    font-size: 0.8em;
+    font-size: 14px;
     text-decoration: none;
     font-weight: 600;
     padding: 17px;
@@ -163,6 +164,34 @@ header {
         top: 100%;
         left: 0;
     }
+}
+
+.container_gt {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.title {
+    margin: 10px 0;
+    margin-left: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.content {
+    margin: 10px 0;
+    margin-left: 40px;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 /* .slideshow-container {
@@ -290,29 +319,3 @@ h1 {
     padding: 10px;
     text-align: center;
 } */
-
-.container_gt {
-    max-width: 1264px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.h1 {
-    margin-bottom: 30px;
-    margin-left: 20px;
-}
-
-.title {
-    margin: 10px 0;
-    margin-left: 10px;
-    line-height: 1.5;
-}
-
-.content {
-    margin: 10px 0;
-    margin-left: 40px;
-    line-height: 1.5;
-}
