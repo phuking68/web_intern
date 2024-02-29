@@ -194,6 +194,30 @@ header {
     font-size: 14px;
 }
 
+.box {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.box img {
+    width: 20px;
+    margin-right: 10px; 
+    align-items: center;
+}
+
+.box p {
+    margin: 0; 
+
+}
+
+
 /* .slideshow-container {
     position: relative;
     max-width: 1263.5px;/
