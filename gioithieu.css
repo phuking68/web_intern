@@ -292,7 +292,7 @@ h1 {
 } */
 
 .container_gt {
-    max-width: 800px;
+    max-width: 1264px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -300,11 +300,19 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    text-align: center;
+.h1 {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.title {
+    margin: 10px 0;
+    margin-left: 10px;
+    line-height: 1.5;
 }
 
 .content {
     margin: 10px 0;
+    margin-left: 40px;
     line-height: 1.5;
 }
