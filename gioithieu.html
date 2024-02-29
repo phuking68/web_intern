@@ -72,7 +72,7 @@
     </ul>
   </nav>
 
-  <div class="slideshow-container">
+  <!-- <div class="slideshow-container">
     <div class="slide">
       <img src="images/slideshow1.png" alt="Slide 1" width="1263.5px">
     </div>
@@ -179,8 +179,17 @@
           không ai có thể phủ nhận, bởi đây là […]</p>
       </div>
     </div>
+  </div> -->
+  <div class="container_gt">
+    <h1>GIỚI THIỆU</h1>
+    <p class="content">Dịch vụ kế toán thuê ngoài trọn gói của chúng tôi hỗ trợ mọi khó khăn, vướng mắc về kế toán, thuế
+      và các thủ tục pháp lý liên quan sẽ được giải quyết triệt để và nhanh chóng!</p>
+    <p class="content">&#8226; Chuyên nghiệp trong quy cách làm việc, ứng xử với khách hàng;</p>
+    <p class="content">&#8226; Chuẩn mực, cẩn trọng và chính xác trong thao tác công việc;</p>
+    <p class="content">&#8226; Xử lý vấn đề, số liệu nhanh chóng, cắt giảm thủ tục rườm rà;</p>
+    <p class="content">&#8226; Cam kết đảm bảo hiệu quả công việc luôn ở mức cao nhất;</p>
+    <p class="content">&#8226; Chịu mọi trách nhiệm trong các sai sót về số liệu, chứng từ.</p>
   </div>
-
 
 
 
@@ -196,27 +205,27 @@
       mainItem.classList.remove('hover');
     }
 
-    var slideIndex = 1;
-    showSlides(slideIndex);
+    // var slideIndex = 1;
+    // showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
+    // function plusSlides(n) {
+    //   showSlides(slideIndex += n);
+    // }
 
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("slide");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slides[slideIndex - 1].style.display = "block";
-    }
+    // function showSlides(n) {
+    //   var i;
+    //   var slides = document.getElementsByClassName("slide");
+    //   if (n > slides.length) { slideIndex = 1 }
+    //   if (n < 1) { slideIndex = slides.length }
+    //   for (i = 0; i < slides.length; i++) {
+    //     slides[i].style.display = "none";
+    //   }
+    //   slides[slideIndex - 1].style.display = "block";
+    // }
 
-    setInterval(function () {
-      plusSlides(1);
-    }, 5000);
+    // setInterval(function () {
+    //   plusSlides(1);
+    // }, 5000);
 
   </script>
 </body>
