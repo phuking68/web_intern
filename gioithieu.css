@@ -123,55 +123,6 @@ header {
     font-weight: 400;
     text-decoration: none;
 }
-
-/* Adjustments for smaller screens */
-@media only screen and (max-width: 768px) {
-    header {
-        height: auto;
-        flex-direction: column;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .logo img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .title h1 {
-        font-size: 1.8em;
-    }
-
-    .button button {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .menu-bar {
-        height: auto;
-        padding: 10px;
-    }
-
-    .menu-bar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu-bar li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .menu-bar a {
-        padding: 15px;
-    }
-
-    .submenu .dropdown {
-        top: 100%;
-        left: 0;
-    }
-}
-
 .container_gt {
     max-width: 1200px;
     margin: 50px auto;
@@ -215,7 +166,7 @@ header {
 .box img {
     width: 14px;
     height: 14px;
-    margin-right: 10px; 
+    margin-right: 10px;
     align-items: center;
 }
 
@@ -350,3 +301,66 @@ h1 {
     padding: 10px;
     text-align: center;
 } */
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .title h1 {
+        font-size: 1.8em;
+    }
+
+    .button button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .menu-bar {
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-bar li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu-bar a {
+        padding: 15px;
+    }
+
+    .submenu .dropdown {
+        top: 100%;
+        left: 0;
+    }
+    .container {
+        padding: 10px;
+    }
+
+    .h1 {
+        margin-left: 10px;
+    }
+
+    .title {
+        margin-left: 20px;
+    }
+
+    .content {
+        margin-left: 30px;
+    }    
+}

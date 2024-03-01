@@ -68,6 +68,7 @@ p {
 .end-of-page{
     background-color: rgb(37, 37, 37);
     line-height: 30px;
+    
 }
 .copyright-belong-to {
     text-align: center; 
@@ -92,4 +93,20 @@ textarea {
     display: block;
     max-width: 100%;
     background: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        padding: 20px;
+    }
+    .section-container{
+        padding: 20px;
+    }
+    .row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .col-md-4 {
+        width: 100%;   
+    }
 }
