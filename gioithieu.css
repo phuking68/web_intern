@@ -84,6 +84,15 @@ header {
     background-color: white;
     color: black;/
 }
+#toggle {
+    background: #353b48;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+} 
 
 /* Submenu styles */
 .submenu .dropdown {
@@ -174,6 +183,7 @@ header {
     margin: 0;
     font-size: 12px;
 }
+
 
 
 /* .slideshow-container {
@@ -328,6 +338,11 @@ h1 {
     .menu-bar {
         height: auto;
         padding: 10px;
+        display: none;
+    }
+
+    #toggle {
+        display: block;
     }
 
     .menu-bar ul {
