@@ -96,10 +96,10 @@ textarea {
 }
 @media only screen and (max-width: 768px) {
     .wrapper {
-        padding: 20px;
+        padding: 0;
     }
     .section-container{
-        padding: 20px;
+        padding: 0;
     }
     .row {
         flex-direction: column;

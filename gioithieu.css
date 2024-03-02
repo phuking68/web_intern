@@ -84,6 +84,7 @@ header {
     background-color: white;
     color: black;/
 }
+
 #toggle {
     background: #353b48;
     color: #fff;
@@ -92,7 +93,7 @@ header {
     font-size: 20px;
     cursor: pointer;
     display: none;
-} 
+}
 
 /* Submenu styles */
 .submenu .dropdown {
@@ -104,6 +105,7 @@ header {
     overflow: hidden;
     animation: fadeIn 0.3s ease forwards;
 }
+
 
 .menu-bar ul li:hover a,
 .menu-bar ul li:hover>a {
@@ -132,6 +134,7 @@ header {
     font-weight: 400;
     text-decoration: none;
 }
+
 .container_gt {
     max-width: 1200px;
     margin: 50px auto;
@@ -340,6 +343,9 @@ h1 {
         padding: 10px;
         display: none;
     }
+    .submenu{
+        text-align: left;
+    }
 
     #toggle {
         display: block;
@@ -363,7 +369,12 @@ h1 {
         top: 100%;
         left: 0;
     }
+
     .container {
+        padding: 0;
+    }
+
+    .box {
         padding: 10px;
     }
 
@@ -377,5 +388,5 @@ h1 {
 
     .content {
         margin-left: 30px;
-    }    
+    }
 }
