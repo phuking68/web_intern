@@ -346,12 +346,17 @@ h1 {
     .submenu{
         text-align: left;
     }
+    .submenu .dropdown {
+        position: relative;
+        background: #fff;
+    }
 
     #toggle {
         display: block;
     }
 
     .menu-bar ul {
+        position: relative;
         flex-direction: column;
         align-items: center;
     }
