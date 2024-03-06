@@ -1,0 +1,132 @@
+.footer {
+    background-color: #191919 !important;
+    padding: 60px 0 0 0;
+}
+.pb-20 {
+    padding-bottom: 20px !important;
+}
+.pt-0 {
+    padding-top: 0 !important;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.flex-start {
+    justify-content: flex-start !important;
+}
+.right-flex-start {
+    width: 50%;
+    margin-left: 30px;
+}
+.left-flex-start {
+    width: 50%;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.widget-title {
+    color: #fff;
+    margin: 0;
+}
+h5 {
+    font-weight: 500;
+    font-size: 15px;
+}
+.line-bottom {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 50px;
+    border-bottom: 2px solid #10A1D6;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.col-md-6 .list-border li {
+    border-bottom: 1px dashed #333333;
+}
+.social-icons {
+    margin-bottom: 30px !important;
+    margin-top: 50px !important;
+}
+.social-icons.icon-gray a {
+    background-color: #eeeeee;
+    color: #555555;
+    display: block;
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    width: 36px;
+}
+.social-icons.icon-circled a {
+    border-radius: 50%;
+}
+.social-icons a {
+    text-align: center;
+}
+.social-icons.icon-gray :hover {
+    background-color: #10A1D6;
+    border-color: #10A1D6;
+    color: #fff;
+}
+.contact-container {
+    display: block !important;
+    
+}
+.horizontal-contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.horizontal-contact .each-widget::before {
+    content: "\f111";
+    font-family: FontAwesome;
+    position: absolute;
+    top: -42px;
+    left: 0;
+    right: 0;
+    color: #10A1D6;
+}
+.line-bottom-horizontal-contact {
+    border-top: 1px dashed #333333; 
+    display: flex;
+    justify-content: center;
+    padding-top: 30px !important;
+    margin-top: 70px !important;
+}
+.text-color {
+    color: #10A1D6 !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-white {
+    color: #fff !important;
+    margin: 0 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+.font-36 {
+    font-size: 36px;
+}
+.each-widget {
+    width: 29%;
+    position: relative;
+    margin: 0 10px;
+}
+.end-of-page {  
+    background-color: #222222 !important;
+    padding: 20px !important;
+    text-align: center;
+
+}
+.copyright-belong-to {
+    font-size: 11px !important;
+    margin: 0px !important;
+    color: #777777;
+}
