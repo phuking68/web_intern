@@ -48,6 +48,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #11a1d6;
 }
 
@@ -113,6 +114,7 @@ body {
     font-weight: 400;
     text-align: center;
     color: #333333;
+    align-items: center;
 }
 .line {
     font-size: 1.5rem;  
@@ -123,4 +125,15 @@ body {
 
 .line2 {
     color: #11a1d6; 
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 0;
+        padding-left: 10px;
+        width: 90%;
+    }
+    .banner{
+        width: 100%;
+    }
 }
