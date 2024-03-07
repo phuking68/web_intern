@@ -131,7 +131,8 @@ body {
     .container {
         margin: 0;
         padding-left: 10px;
-        width: 90%;
+        padding-right: 5px;
+        width: 98%;
     }
     .banner{
         width: 100%;

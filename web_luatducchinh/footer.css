@@ -145,7 +145,6 @@ a {
     .footer {
         flex-direction: column;
         width: 100%;
-        
     }
 
     .each-widget {
@@ -155,10 +154,16 @@ a {
     }
     .row{
         flex-direction: column !important;
+        width: 98%;
+        height: auto;
+        padding-left: 10px;
         
     }
     .col-md-6{
         width: 100%;
         margin: 10px;
+    }
+    .end-of-page{
+        padding: 0;
     }
 }

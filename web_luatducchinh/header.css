@@ -1,14 +1,16 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
 
 }
-#right-icon{
+
+#right-icon {
     color: rgb(35, 134, 161);
     font-size: 11px;
 }
+
 .top-header {
     background-color: #f1f1f1;
     display: flex;
@@ -17,32 +19,37 @@ body{
     align-items: center;
     padding: 0px 150px;
 }
-.top-header-right-block{
+
+.top-header-right-block {
     display: flex;
     align-items: center;
     width: 600px;
     justify-content: space-between;
 }
-.right-button{
+
+.right-button {
     display: flex;
-    background-color: rgb(47, 168, 202) ;
+    background-color: rgb(47, 168, 202);
     align-items: center;
     justify-content: center;
     width: 150px;
     border-width: 0px;
     height: 25px;
 }
-#fb-icon{
+
+#fb-icon {
     font-size: 12px;
     margin-left: 14px;
 }
-.top-header-right-block span{
+
+.top-header-right-block span {
     font-size: 12px;
     color: #717171;
     font-weight: 200;
 
 }
-.right-button h4{
+
+.right-button h4 {
     color: white;
     font-size: 11px;
     font-weight: 200;
@@ -50,7 +57,7 @@ body{
 
 
 
-.header-nav-bar{
+.header-nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,36 +67,98 @@ body{
     border-bottom: 1px solid #e0e0e0;
 }
 
-.header-nav-bar img{
+.header-nav-bar img {
     height: 35px;
     width: 35px;
-
 }
+
 .menu {
     display: flex;
     gap: 0px;
 }
+
 .menu-item {
     position: relative;
     padding: 15px 17px;
     font-weight: 200;
-    color:#717171;
+    color: #717171;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
-    font-size:13px;
+    font-size: 13px;
 }
 
 .menu-item:hover {
     background-color: #5d9bec;
     color: #fff;
-    
+
 }
-#highlighted{
+
+#highlighted {
     background-color: #5d9bec;
     color: #fff;
 }
 
+#toggle {
+    background:#fff;
+    color:#717171;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+#logo {
+    padding-left: 30px;
+    padding: 10px;
+    align-items: center;
+}
 
+@media only screen and (max-width: 768px) {
+    .header-nav-bar {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        position: relative;
+        align-items: start;
+    }
 
+    .menu {
+        flex-direction: column;
+        float: left !important;
+        display: none;
+    }
 
+    #toggle {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
 
+    }
+    .header-nav-bar #img {
+        display: none;
+    }
+    .top-header{
+        
+        padding: 10px;
+        height: auto;
+    }
+    
+    .top-header-right-block {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .right-button {
+        margin-left: 0;
+    }
+    #fb-icon{
+        font-size: 12px;
+    }
+    .top-header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+}
