@@ -117,7 +117,7 @@ body {
     .header-nav-bar {
         height: auto;
         flex-direction: column;
-        padding: 20px;
+        padding: 0 25px;
         position: relative;
         align-items: start;
     }
@@ -135,8 +135,13 @@ body {
         padding: 0;
 
     }
-    .header-nav-bar #img {
-        display: none;
+    .header-nav-bar img {
+        /* display: none; */
+        max-height: 38px;
+        vertical-align: middle; 
+        margin: 8px 30px 10px 20px;
+        font-size: 20px;
+        line-height: 1.55;  
     }
     .top-header{
         
